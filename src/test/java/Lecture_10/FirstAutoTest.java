@@ -15,7 +15,6 @@ public class FirstAutoTest {
         Configuration.browser = "edge";
         open("https://ee.ge/");
         $(byText("რეგისტრაცია")).click();
-        sleep(5000);
     }
 
     @Test
